@@ -7,11 +7,11 @@
 - Open this folder in VSCode
 - Open VSCode terminal and put this command to compile everything:
 
-	g++ *.cpp -IC:\mingw_dev_lib\include\SDL2 -LC:\mingw_dev_lib\lib -w -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf -o odyssey.exe
+	`g++ *.cpp -IC:\mingw_dev_lib\include\SDL2 -LC:\mingw_dev_lib\lib -w -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf -o odyssey.exe`
 
 - Run the game by this command:
 
-	.\odyssey.exe
+	`.\odyssey.exe`
 
 ## 2. Build using CMake (a more modern and portable approach)
 Please ensure you have gcc and cmake installed. You can check this by opening Powershell and typing:
@@ -27,8 +27,8 @@ To install gcc using mingw, you can follow the instructions from here:
 Please don't install SDL upfront. If you have already installed SDL, try removing it completely.
 
 Run the following commands on Powershell on Windows or terminal on Linux and MacOS.
-- run `git clone https://github.com/habib-university/sdlcmake.git`
-- `cd sdlcmake`
+- run `git clone [https://github.com/habib-university/CS224-HW1-Fall2023.git](https://github.com/habib-university/CS224-HW1-Fall2023.git)`
+- `cd CS224-HW1-Fall2023`
 - `mkdir build`
 - `cd build`
 - `cmake ..`. On windows use `cmake -G "MinGW Makefiles" ..`

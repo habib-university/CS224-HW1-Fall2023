@@ -31,5 +31,5 @@ Run the following commands on Powershell on Windows or terminal on Linux and Mac
 - `cd CS224-HW1-Fall2023`
 - `mkdir build`
 - `cd build`
-- `cmake ..`. On windows use `cmake -G "MinGW Makefiles" ..`
-- `make`. On windows use `mingw-make`
+- On Linux use `cmake ..`. On windows use `cmake -G "MinGW Makefiles" ..` if you install gcc via MSYS2. If you installed gcc via strawberry perl, use `cmake -G "Unix Makefiles" ..`
+- On Linux use `make`. On windows use `mingw-make` if you used MSYS2 to install gcc. If you used strawberry perl, use `gmake`

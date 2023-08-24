@@ -27,7 +27,7 @@ To install gcc using mingw, you can follow the instructions from here:
 Please don't install SDL upfront. If you have already installed SDL, try removing it completely.
 
 Run the following commands on Powershell on Windows or terminal on Linux and MacOS.
-- run `git clone [https://github.com/habib-university/CS224-HW1-Fall2023.git](https://github.com/habib-university/CS224-HW1-Fall2023.git)`
+- run `git clone https://github.com/habib-university/CS224-HW1-Fall2023.git`
 - `cd CS224-HW1-Fall2023`
 - `mkdir build`
 - `cd build`

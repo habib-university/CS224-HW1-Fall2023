@@ -1,5 +1,6 @@
 include(FetchContent)
 Set(FETCHCONTENT_QUIET FALSE)
+set(SDL2MIXER_VENDORED ON CACHE BOOL "")
 
 message("Fetching sdl...")
 FetchContent_Declare(sdl

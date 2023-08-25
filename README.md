@@ -7,11 +7,19 @@
 - Open this folder in VSCode
 - Open VSCode terminal and put this command to compile everything:
 
+	- For Windows:
 	`g++ *.cpp -IC:\mingw_dev_lib\include\SDL2 -LC:\mingw_dev_lib\lib -w -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf -o odyssey.exe`
+
+  	- For MacOS:
+  	`clang++ *.cpp -o odyssey.out -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_mixer.framework/Headers -I/Libaray/Frameworks/SDL2_image.framework/Headers -F/Library/Frameworks -framework SDL2 -framework SDL2_image -framework SDL2_mixer`
 
 - Run the game by this command:
 
+	- For Windows:
 	`.\odyssey.exe`
+
+	- For MacOS:
+ 	`.\odyssey.out`
 
 ## 2. Build using CMake (a more modern and portable approach)
 Please ensure you have gcc and cmake installed. You can check this by opening Powershell and typing:

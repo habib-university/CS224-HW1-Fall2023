@@ -19,7 +19,7 @@
 	`.\odyssey.exe`
 
 	- For MacOS:
- 	`.\odyssey.out`
+ 	`./odyssey.out`
 
 ## 2. Build using CMake (a more modern and portable approach)
 Please ensure you have gcc and cmake installed. You can check this by opening Powershell and typing:

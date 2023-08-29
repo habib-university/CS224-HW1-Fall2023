@@ -40,4 +40,4 @@ Run the following commands on Powershell on Windows or terminal on Linux and Mac
 - `mkdir build`
 - `cd build`
 - On Linux use `cmake ..`. On windows use `cmake -G "MinGW Makefiles" ..` if you install gcc via MSYS2. If you installed gcc via strawberry perl, use `cmake -G "Unix Makefiles" ..`
-- On Linux use `make`. On windows use `mingw-make` if you used MSYS2 to install gcc. If you used strawberry perl, use `gmake`
+- On Linux use `make`. On windows use `mingw32-make` if you used MSYS2 to install gcc. If you used strawberry perl, use `gmake`
